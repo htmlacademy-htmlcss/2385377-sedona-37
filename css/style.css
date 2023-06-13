@@ -1,0 +1,34 @@
+/* body {
+background-color: tomato;
+} */
+/* body {
+  background-image: url("../img/background.jpg");
+} */
+
+body {
+font-family: 'PT Sans';
+font-style: normal;
+}
+
+.navigation-list {
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+list-style: none;
+display: flex;
+justify-content: start;
+gap: 16px;
+}
+
+.navigation-list-navigation-user {
+display: flex;
+justify-content: end;
+list-style: none;
+}
+
+
+.navigation-link-button {
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+}
