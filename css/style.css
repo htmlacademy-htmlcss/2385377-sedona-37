@@ -1,15 +1,83 @@
-/* body {
-background-color: tomato;
-} */
-/* body {
-  background-image: url("../img/background.jpg");
-} */
+
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  scr: url (../fonts/ptsans-400.woff2) format ("woff2")
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  scr: url (../fonts/ptsans-700.woff2) format ("woff2")
+  font-display: swap;
+}
+
+html {
+  height: 100%
+}
+.page-container {
+  width: 1200px;
+  height: 3560px;
+  margin: 0 auto;
+  outline: 2px solid blueviolet;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgb(0, 0, 0, 0.2);
+}
+
+.page-header {
+  width: 1200px;
+  height: 64px;
+  outline: 2px solid rgb(47, 255, 0);
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-box {
+  width: 100px;
+  height: 64px;
+  outline: 2px solid aqua;
+
+}
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+}
 
 body {
-font-family: 'PT Sans';
-font-style: normal;
-background-color: aqua;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3333333;
+  background-color: #F2F2F2;
+  min-width: 1280px;
+  outline: 5px solid red;
+
+ 
 }
+.welcome-box {
+  outline:  2px solid red;
+  background-color: aqua;
+  width: 1200px;
+  height: 484px;
+  background-image: url("../images/welcome.svg")
+  /* background-repeat: no-repeat;
+  background-size: 50%, 50%;
+  background-position: center top, center bottom; */
+  /* url("../images/index-background.png")
+  url("../images/Vector.png") */
+}
+
+
 
 .navigation-list {
 font-weight: 700;
