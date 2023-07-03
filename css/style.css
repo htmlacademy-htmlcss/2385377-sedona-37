@@ -19,15 +19,13 @@ html {
   height: 100%
 }
 .page-container {
-  min-height: 100$;
-  width: 1200px;
-  height: 3560px;
+  max-width: 1200px;
+  width: 100%
   margin: 0 auto;
   padding: 0px;
   outline: 3px solid red;
   background-color: #ffffff;
   box-shadow: 0 0 15px rgb(0, 0, 0, 0.2);
-  display: flex;
 }
 
 body {
@@ -35,8 +33,7 @@ body {
 }
 
 .navigation {
-  width: 1200px;
-  height: 64px;
+  max-width: 1200px;
   outline: 2px solid aqua;
   display: flex;
   margin: 0 auto;
@@ -83,7 +80,7 @@ body {
   font-style: normal;
   font-size: 18px;
   line-height: 21px;
-  color: #3333333;
+  color: #333333;
   background-color: #F2F2F2;
   min-width: 1280px;
   outline: 5px solid red;
@@ -95,12 +92,13 @@ body {
 
 .welcome-box {
   outline:  5px solid red;
-  width: 1200px;
-  height: 484px;
-  background-image: url (../images/index-background.png)
-                    url ("../images/welcome.svg")
+  max-width: 1200px;
+  width: 100%;
+  min-height: 485px;
+  background-image:url("../images/welcome.svg"),
+                    url(../images/index-background.png);
   background-repeat: no-repeat;
-  background-size: 50%, 50%;
+  background-size: 100%;
   background-position: center top, center bottom;
 }
 .welcome-image-box {
@@ -113,6 +111,12 @@ body {
   display: block;
   justify-content: center;
   margin: 0 auto;
+}
+
+.subscribe {
+  background-image:url("../images/Subscribe.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .page-footer {
