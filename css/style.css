@@ -19,34 +19,60 @@ html {
   height: 100%
 }
 .page-container {
+  min-height: 100$;
   width: 1200px;
   height: 3560px;
   margin: 0 auto;
-  outline: 2px solid blueviolet;
+  padding: 0px;
+  outline: 3px solid red;
   background-color: #ffffff;
   box-shadow: 0 0 15px rgb(0, 0, 0, 0.2);
+  display: flex;
 }
 
-.page-header {
+body {
+  height: 100%
+}
+
+.navigation {
   width: 1200px;
   height: 64px;
-  outline: 2px solid rgb(47, 255, 0);
-  display: flex;
-  justify-content: space-between;
-}
-
-.navigation-box {
-  width: 100px;
-  height: 64px;
   outline: 2px solid aqua;
-
+  display: flex;
+  margin: 0 auto;
 }
 .navigation-list {
+  margin: 0px;
+  padding: 0px;
+  width: 430 px;
+
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 0px;
   padding: 0px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  list-style: none;
+  gap: 20px;
+  }
+
+.navigation-user-list {
+  max-width: 250px;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  list-style: none;
+  gap: 20px;
 }
+
+
+  .navigation-link-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  }
 
 body {
   margin: 0;
@@ -61,43 +87,36 @@ body {
   background-color: #F2F2F2;
   min-width: 1280px;
   outline: 5px solid red;
-
- 
 }
+
+.main-container {
+  flex: flex-grow;
+}
+
 .welcome-box {
-  outline:  2px solid red;
-  background-color: aqua;
+  outline:  5px solid red;
   width: 1200px;
   height: 484px;
-  background-image: url("../images/welcome.svg")
-  /* background-repeat: no-repeat;
+  background-image: url (../images/index-background.png)
+                    url ("../images/welcome.svg")
+  background-repeat: no-repeat;
   background-size: 50%, 50%;
-  background-position: center top, center bottom; */
-  /* url("../images/index-background.png")
-  url("../images/Vector.png") */
+  background-position: center top, center bottom;
+}
+.welcome-image-box {
+  width: 1200px;
+  height: 485px;
+  outline: 3px solid blue;
 }
 
-
-
-.navigation-list {
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-list-style: none;
-display: flex;
-justify-content: start;
-gap: 16px;
+.welcome-content {
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
 }
 
-.navigation-list-navigation-user {
-display: flex;
-justify-content: end;
-list-style: none;
-}
-
-
-.navigation-link-button {
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
+.page-footer {
+  width:1200px;
+  height: 120px;
+  outline: 4px solid green;
 }
