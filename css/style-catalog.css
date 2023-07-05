@@ -1,0 +1,14 @@
+
+
+.hotel-list {
+    display: grid;
+    grid-template-columns: repeat(3, 340px);
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.hotel-card {
+  display: grid;
+  grid-template-columns: repeat (2, 140px);
+}
