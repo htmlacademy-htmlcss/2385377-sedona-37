@@ -5,59 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Каталог</title>
-    <link rel="stylesheet" href="css/style_catalog.css">
+    <link rel="stylesheet" href="css/style-catalog.css">
 </head>
 <body>
     <header>
 
     </header>
     <section class="hotel-filter">
-      <ul class="hotel-list">
-        <li class="hotel-card">
-          <a class="hotel-card-image-link" href="hotel.html">
-            <img class="hotel-card-image" src="img/catalog-img/hotel1_Amara-resort.jpeg" width="300" height="212" alt="Амара Резорт">
-          </a>
-          <a class="hotel-card-title-link" href="">
-            <h3 class="hotel-card-title"> Amara Resort & Spa</h3>
-          </a>
-          <span class="hotel-card-type-price">Гостиница от 4000 ₽</span>
-          <a class="button-hotel-card-button" href="#">Подробнее</a>
-          <a class="button-hotel-card-button" href="#">В избранное</a>
-        </li>
-        <li class="hotel-card">
-          <a class="hotel-card-image-link" href="hotel.html">
-            <img class="hotel-card-image" src="img/catalog-img/hotel2_Villa as_Poco.jpeg" width="300" height="212" alt="Амара Резорт">
-          </a>
-          <a class="hotel-card-title-link" href="">
-            <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
-          </a>
-          <span class="hotel-card-type-price">Гостиница от 5000 ₽</span>
-          <a class="button-hotel-card-button" href="#">Подробнее</a>
-          <a class="button-hotel-card-button" href="#">В избранное</a>
-        </li>
-        <li class="hotel-card">
-          <a class="hotel-card-image-link" href="hotel.html">
-            <img class="hotel-card-image" src="img/catalog-img/hotel-3_Desert.jpeg" width="300" height="212" alt="Амара Резорт">
-          </a>
-          <a class="hotel-card-title-link" href="">
-            <h3 class="hotel-card-title">Desert Quail Inn</h3>
-          </a>
-          <span class="hotel-card-type-price">Гостиница от 2500 ₽</span>
-          <a class="button-hotel-card-button" href="#">Подробнее</a>
-          <a class="button-hotel-card-button" href="#">В избранное</a>
-        </li>
-        <li class="hotel-card">
-          <a class="hotel-card-image-link" href="hotel.html">
-            <img class="hotel-card-image" src="img/catalog-img/hotel-4_Greentree.jpeg" width="300" height="212" alt="Амара Резорт">
-          </a>
-          <a class="hotel-card-title-link" href="">
-            <h3 class="hotel-card-title">GreenTree Inn</h3>
-          </a>
-          <span class="hotel-card-type-price">Гостиница от 1500 ₽</span>
-          <a class="button-hotel-card-button" href="#">Подробнее</a>
-          <a class="button-hotel-card-button" href="#">В избранное</a>
-        </li>
-      </ul>
+
     </section>
+      <ul class="hotel-list">
+        <li class="hotel-item">
+          <img class="hotel-photo" src="img/catalog-img/hotel1_Amara-resort.jpeg"  width="300" height="212" alt="Амара Резорт">
+          <h3 class="hotel-item-title">Amara Resort & Spa</h3>
+            <div>
+              <span class="hotel-type">Гостиница</span>
+              <span class="hotel-price">от 4000 ₽</span>
+            </div>
+            <div>
+              <button type="button" class="button button-brown">подробнее</button>
+              <button type="button" class="button button-favorites">в избранное</button>
+            </div>
+            <div class="rating-line">
+              <img class="stars" src="img/4-stars.svg" alt="4 звезды" width="140" height="">
+              <span class="rating">Рейтинг: 8,5</span>
+            </div>
+        </li>
+        <li class="hotel-item">
+          <img class="hotel-photo" src="img/catalog-img/hotel2_Villa as_Poco.jpeg" width="300" height="212" alt="Вилла Дьявола">
+            <h3 cclass="hotel-item-title">Villas at Poco Diablo</h3>
+            <div>
+              <span class="hotel-type">Гостиница</span>
+              <span class="hotel-price">от 5000 ₽</span>
+            </div>
+            <div class="preferences">
+              <button type="button" class=" button button-brown">подробнее</button>
+              <button type="button" class="button button-favorites-chosen">в избранном</button>
+            </div>
+            <div>
+              <img class="stars" src="img/4-stars.svg" alt="4 звезды" width="140" height="">
+              <span class="rating">Рейтинг: 9,2</span>
+            </div>
+        </li>
+        <li class="hotel-item">
+            <img class="hotel-photo" src="img/catalog-img/hotel-3_Desert.jpeg" width="300" height="212" alt="Дезерт Квалин">
+            <h3 class="hotel-item-title">Desert Quail Inn</h3>
+            <div>
+              <span class="hotel-type">Гостиница</span>
+              <span class="hotel-price">от 2500 ₽</span>
+            </div>
+            <div class="preferences">
+              <button type="button" class="button button-brown">подробнее</button>
+              <button type="button" class="button button-favorites">в избранное</button>
+            </div>
+
+          <div class="rating-line">
+            <img class="stars" src="img/3-stars.svg" alt="3 звезды" width="140" height="">
+            <span class="rating">Рейтинг: 6,9</span>
+          </div>
+        </li>
+        <li class="hotel-item">
+            <img class="hotel-photo" src="img/catalog-img/hotel-4_Greentree.jpeg" width="300" height="212" alt="Зеленое дерево">
+            <h3 class="hotel-item-title">GreenTree Inn</h3>
+            <div>
+              <span class="hotel-type">Гостиница</span>
+              <span class="hotel-price">от 1500 ₽</span>
+            </div>
+            <div class="preferences">
+              <button type="button" class="button button-brown">подробнее</button>
+              <button type="button" class="button button-favorites">в избранное</button>
+            </div>
+
+          <div>
+            <img class="stars" src="img/2-stars.svg" alt="2 звезды" width="140" height="">
+            <span class="rating">Рейтинг: 5,0</span>
+          </div>
+      </ul>
+
 </body>
 </html>
